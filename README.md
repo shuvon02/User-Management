@@ -79,21 +79,22 @@ ________________________________________
 2.	Configure Database
     o	Open src/main/resources/application.properties and update the MySQL database credentials:
 
-  	  spring.datasource.url=jdbc:mysql://localhost:3306/user_management
-
-  	  spring.datasource.username=root
-
-  	  spring.datasource.password=your_password
-
-  	  spring.jpa.hibernate.ddl-auto=update
+     	  spring.datasource.url=jdbc:mysql://localhost:3306/user_management
+   
+     	  spring.datasource.username=root
+   
+     	  spring.datasource.password=your_password
+   
+     	  spring.jpa.hibernate.ddl-auto=update
 
   	o	Ensure MySQL is running and create a database named user_management.
   	
 3.	Build and Run the Application
 
     o	Open a terminal in the project directory and run:
-       mvn clean install
-       mvn spring-boot:run
+
+  	      mvn clean install
+         mvn spring-boot:run
     o	Or, run the UserManagementApplication.java file from your IDE.
 
 
